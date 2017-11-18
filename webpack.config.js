@@ -5,7 +5,7 @@ function basePath (dir) {
 }
 
 module.exports = {
-  entry: './src/main.js',
+  entry: ['./src/main.js'],
   output: {
     path: basePath('dist'),
     publicPath: '/dist/',
