@@ -4,7 +4,7 @@
 ## Commands
 `npm run build`
 
-Builds project for production-
+Builds project for production.
 
 `npm run watch`
 
