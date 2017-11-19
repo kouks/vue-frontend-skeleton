@@ -1,6 +1,9 @@
 # Vue Frontend Skeleton
 > Pavel Koch
 
+## Installation
+Clone the repo to desired location, rename, change package.json specs and run `npm install`.
+
 ## Commands
 `npm run build`
 
