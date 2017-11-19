@@ -1,8 +1,4 @@
-const Uglify = require('uglifyjs-webpack-plugin')
-
-function basePath (dir) {
-  return require('path').join(__dirname, dir)
-}
+const basePath = require('./build/helpers').basePath
 
 module.exports = {
   entry: ['./src/main.js'],
@@ -11,9 +7,6 @@ module.exports = {
     publicPath: '/dist/',
     filename: 'build.js'
   },
-  plugins: [
-    new Uglify()
-  ],
   resolve: {
     extensions: ['.js', '.vue'],
     alias: {
