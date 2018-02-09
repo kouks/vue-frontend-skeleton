@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "node build/dev.js",
     "build": "node build/prod.js",
-    "test": "mocha-webpack --webpack-config webpack.config.js --recursive test/**/*.spec.js --require test/setup",
+    "test": "mocha-webpack --webpack-config webpack.config.js --recursive tests/**/*.spec.js --require tests/setup",
     "prod": "npm run test && npm run build"
   },
   "author": "Pavel Koch <kouks.koch@gmail.com>",
