@@ -12,7 +12,7 @@ module.exports = {
     alias: {
       '@': basePath('src'),
       'config': basePath('config'),
-      'vue$': 'vue/dist/vue.esm.js'
+      'vue$': 'vue/dist/vue.runtime.esm.js'
     }
   },
   module: {
